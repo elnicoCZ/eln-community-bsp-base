@@ -1,12 +1,12 @@
-Freescale's Community Yocto BSP
+Elnico's Community Yocto BSP
 ===============================
 
 Supported boards
 ----------------
 
-In order to know the supported boards, please, see the release notes at
-
-   http://freescale.github.io/doc/release-notes/current/
+ * SQM4-VF6-EasyBoard
+ * All boards supported by Freescale
+   (see http://freescale.github.io/doc/release-notes/current/)
 
 Quick Start Guide
 -----------------
@@ -14,7 +14,7 @@ Quick Start Guide
 Once you have downloaded the source of all projects, you will have to
 call:
 
-$: . ./setup-environment <build directory>
+$: MACHINE=sqm4vf6-eb && . ./setup-environment <build directory>
 
 After this step, you will be with everything need for build an image.
 
@@ -58,3 +58,12 @@ The following layers are included on this release:
    Mailing list: https://lists.yoctoproject.org/listinfo/meta-freescale
    Note: Use [meta-fsl-demos] in subject to easy the processing
 
+ * meta-elnico-sqm4: support for Elnico's SQM4 platform
+   Path: sources/meta-elnico-sqm4
+   Project: https://github.com/elnicoCZ/meta-elnico-sqm4
+   GIT: git://github.com/elnicoCZ/meta-elnico-sqm4.git
+
+== Disclaimer
+
+This is the Elnico's extension of "Freescale's Community Yocto BSP" project.
+See https://github.com/Freescale/fsl-community-bsp-base .
