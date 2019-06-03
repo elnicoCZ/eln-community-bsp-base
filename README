@@ -4,7 +4,7 @@ Elnico's Community Yocto BSP
 Supported boards
 ----------------
 
- * SQM4-SX6-EasyBoard
+ * SQM4-UL6-EasyBoard
  * All boards supported by Freescale
    (see http://freescale.github.io/doc/release-notes/current/)
 
